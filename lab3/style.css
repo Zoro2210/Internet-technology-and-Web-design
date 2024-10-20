@@ -1,0 +1,214 @@
+body {
+    max-width: 99%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position-y: top;
+    font-family: "Inconsolata", monospace;
+    font-style: normal;
+}
+/* Тіло сторінки */
+
+
+.page-title {
+display: block;
+font-family: "Protest Strike", sans-serif;
+font-weight: 700;
+font-style: normal;
+overflow: hidden;
+
+background: linear-gradient(lightgrey, pink);
+text-align: center;
+
+border: 3px solid #333;
+border-radius: 30px;
+}
+/* Заголовок сторінки */
+
+
+.title {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    max-width: 400px;        
+    overflow: hidden;
+
+    text-align: center;
+    margin: 2% auto;
+
+    background: linear-gradient(lightgrey, pink);
+    border: 3px solid #333;
+    border-radius: 30px;
+
+}
+/* Заголовки на сторінці */
+
+
+.student-img {
+    cursor: pointer;
+    display: block;
+    position: relative;
+
+    margin: 0 auto;
+
+    width: 150px; 
+    height: 150px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.student-img:hover {
+    width: 300px;
+    height: 300px;
+    transition: .2s;
+    transition-duration: 1.2s;
+    border-radius: 10%;
+}
+
+.student-img:not(:hover){
+    transition: 1.5s;
+}
+/* Зображення студента */
+
+
+.personal-info {
+    font-size: 19px;
+    
+    padding: 20px 30px;
+    border: 3px solid #000000;
+    background: linear-gradient(to right, #ffcc99, #e6e6fa);
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+/* Персональні дані */
+
+.education {
+    max-width: 90%;
+
+    margin: 0 auto;
+    padding: 20px 40px;
+
+    text-align: center;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    background: linear-gradient(to right, #ffcc99, #e6e6fa);
+
+
+}
+/* Освіта */
+
+.professional-skills {
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 10px 30px;
+
+    border: 3px solid #000000;
+    background: linear-gradient(to right, #ffcc99, #e6e6fa);
+    border-radius: 10px;
+
+
+    text-align: center;
+}
+/* Професійні навички */
+
+.contacts {
+    margin: 30px auto;
+    max-width: 30%;
+    padding: 20px 10px;
+
+    background: linear-gradient(to right, #ffcc99, #e6e6fa);
+    border: 3px solid #000000;
+    border-radius: 10px;
+
+
+    text-align: center;
+}
+/* Контакти */
+
+.social {
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 10px 15px;
+    display: block;
+    position: relative;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    background: linear-gradient(to right, #ffcc99, #e6e6fa);
+}
+
+.social .icons {
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.social .icons:hover {
+    transform: scale(1.1);
+}
+
+.social a {
+    text-decoration: none;
+}
+/* Іконки соціальних мереж */
+
+
+.feedback {
+    max-width: 230px; 
+    margin: 0 auto;
+    padding: 40px 10px;
+
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ffcc99, #e6e6fa);
+}
+
+.feedback textarea {
+    resize: none;
+    overflow-y: auto;
+    min-height: 100px;
+}
+
+.feedback button {
+    cursor: pointer;
+}
+
+.feedback button:hover {
+    background: linear-gradient(to right, #ffcc99, #e6e6fa);
+}
+/* Зворотній зв'язок */
+
+hr {
+    padding: 0;
+    margin: 10px auto;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+/* Роздільна лінія */
+
+.table-page {
+    display: block;
+    margin: 0 auto;
+
+    width: 300px;
+
+    padding: 10px 0;
+
+    border-radius: 15px;
+    background: linear-gradient(to right, darkred, orange);
+    transition: .2s;
+
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.table-page:hover {
+    scale: 1.1;
+}
+/* Посилання та сторінку з таблицею */

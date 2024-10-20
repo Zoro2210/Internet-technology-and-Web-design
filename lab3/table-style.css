@@ -1,0 +1,42 @@
+table {
+    width: 300px; 
+    border-collapse: collapse; 
+    text-align: center; 
+    border: 1px solid #333;
+}
+
+tr, th, td {
+    border: 1px solid #333;
+    padding: 0 15px;
+}
+/* Рамки та відступи для таблиці */
+
+
+td:hover {
+    background-color: lightblue; 
+}
+/* Зміна кольору при наведенні */
+
+
+td:active {
+    background-color: deepskyblue;
+}
+/* Колір змінюється коли натиснуто */
+
+
+tr:last-child td:hover {
+    background-color: lightcoral; 
+}
+/* Зміна кольору при наведенні на останні комірки */
+
+
+tr:last-child td:active {
+    background-color: red; 
+}
+/* Зміна кольору при натисканні на останні комірки */
+
+
+tr:last-child td {
+    transition: .5s;
+}
+/* Плавність зміни кольору */
